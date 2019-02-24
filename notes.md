@@ -94,6 +94,7 @@ Every object (any data artifact in python) has a data type.
 
 The *help()* function will show you documentation.
 
-Many objects (particularly functions and classes) also have a __doc__
-property that contains documentation for that object.  Try _someobject_.__doc__.
+Many objects (particularly functions and classes) also have a
+\_\_doc\_\_ property that contains documentation for that object.  Try
+_someobject_.\_\_doc\_\_.
 
