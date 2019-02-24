@@ -69,3 +69,31 @@ designed a mechanical calculating engine to produce such tables that
 would be more accurate than those calculated by hand.  The accuracy of
 such tables was important because they were used by ships captains to
 navigate across the Atlantic Ocean.
+
+
+# Interacting With Python
+
+Python is an interpreted language.  You don't need to know what that
+means.  Practically though, it means that there's an environment that
+you can interact with.  If you start python with
+
+<pre>
+python -i
+</pre>
+
+then you can use it in interactive mode.  Expressions you type wll be
+run (evaluated) and the result printed out.
+
+You can also examine things directly.
+
+The *dir()* function returns a list of all of the properties of whatever
+you pass to it.
+
+The *type()* function tells you what the data type of its argument is.
+Every object (any data artifact in python) has a data type.
+
+The *help()* function will show you documentation.
+
+Many objects (particularly functions and classes) also have a __doc__
+property that contains documentation for that object.  Try _someobject_.__doc__.
+
