@@ -1,0 +1,42 @@
+Here's a review of what we covered on February 24th.
+
+Starting python with the 'python' command from a command prompt window.
+
+The + (addition) and * (multiplication) operators on numbers and strings.
+
+Using the range function to construct a list of integers.
+
+using the len function to get the length of a list.
+
+Using subscripts [] to get an element from a list.
+
+Using print.
+
+Order of operations (how * is "tighter" than +) and how to use
+parentheses to control the order of operations.
+
+tuples:
+
+  subscripts work on tuples too
+
+  a literal tuple with only one element still needs a comma so that it's
+  not confused with a parenthesized expression.
+
+The % formatting operator and using tuples to format several values
+into the resulting string.
+
+The type function tells you the type of its argument.
+
+The dir function lists all of the properties of an object.
+
+the help function enters the help facility where one can get
+documentation about any defined python object.
+
+Iteration using the for loop over a range.
+
+Using a for loop we printed a table of the squares of numbers.
+
+Printing a multiplication table.  See multiplication_table.py.
+
+running code from a file
+
