@@ -16,7 +16,7 @@ for a in range(1, 10):
     sys.stdout.write('\n')
 
 
-# In the 1809s Charles Babbage designed a mechanical calculating
+# In the 1800s Charles Babbage designed a mechanical calculating
 # engine to produce more complicated tables that would be more
 # accurate than those calculated by hand.  The accuracy of such tables
 # was important because they were used by ships captains to navigate
