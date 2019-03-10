@@ -2,8 +2,11 @@
 import random
 
 print("Hi.  Welcome to Guess the Number.")
-print("I'm thinking of a number from 1 to 20")
-the_number = random.randint(1, 20)
+
+min = 1
+max = 20
+print("I'm thinking of a number from %d to %d" % (min, max))
+the_number = random.randint(min, max)
 
 guess_count = 0
 
