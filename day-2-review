@@ -1,0 +1,31 @@
+We didn't cover very much on March 10th.
+
+We looked at guess_the_number.py.  You figured out how to change the
+range of numbers that the computer can pick from.  You figured out
+that the top end of the range needed to be changed in two places: in
+the print function that tells the user the range of numbers to guess
+from, and in the call to random.randint where the computer is choosing
+the number for the user to try to guess.  I showed you how we can
+define variables to specify the range of numbers so that if we want to
+change the range in the future we only need to change the number in
+one place.  You can see the updated version of guess_the_number.py at
+https://raw.githubusercontent.com/MarkNahabedian/teaching_python/master/guess_the_number.py.
+You could also try using the command "git pull" (from the terminal
+prompt, not the python prompt) to fetch the latest version from
+GitHub.
+
+We talked a little bit about how to change the program to limit the
+number of times that the user can guess before the program quits.
+Your homework is to figure out how to do that.  You can ask me
+questions if you're confused about how something you tried didn't
+work.  You'll be able to figure this out but it might take some time.
+Read the program through and try to understand how it works the way it
+is now.  This should give you insight into how to limit the number of
+guesses the user can make.
+
+Often when trying to solve a problem I won't be able to while I'm
+thinking about it.  Often the solution, or at least something to try
+next, comes to me when I least expect it, like when I'm in the shower
+or when trying to fall asleep.  Ideas have never come to me while
+playing games though, only when my mind is relaxed and not doing
+anything.

@@ -3,6 +3,8 @@ import random
 
 print("Hi.  Welcome to Guess the Number.")
 
+max_guesses = 5
+
 min = 1
 max = 20
 print("I'm thinking of a number from %d to %d" % (min, max))
